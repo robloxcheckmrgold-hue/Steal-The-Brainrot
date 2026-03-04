@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Christian Web</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0f1117;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+
+h1{
+    font-size:48px;
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+.searchBox{
+    width:500px;
+    max-width:90%;
+}
+
+.searchBox input{
+    width:100%;
+    padding:15px;
+    border-radius:30px;
+    border:none;
+    font-size:18px;
+    outline:none;
+}
+
+.searchBox button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    background:#4c8bf5;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.searchBox button:hover{
+    background:#3b73cc;
+}
+
+.links{
+    margin-top:40px;
+}
+
+.links a{
+    text-decoration:none;
+    color:#aaa;
+    margin:0 15px;
+    font-size:16px;
+}
+
+.links a:hover{
+    color:white;
+}
+
+footer{
+    position:absolute;
+    bottom:20px;
+    font-size:14px;
+    color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Welcome to the Christian Web</h1>
+
+<form class="searchBox" action="https://www.google.com/search" method="GET">
+<input type="text" name="q" placeholder="Search the web...">
+<button type="submit">Search</button>
+</form>
+
+<div class="links">
+<a href="https://youtube.com">YouTube</a>
+<a href="https://github.com">GitHub</a>
+<a href="https://reddit.com">Reddit</a>
+<a href="https://roblox.com">Roblox</a>
+</div>
+
+<footer>
+Christian Web • Your custom search homepage
+</footer>
+
+</body>
+</html>
